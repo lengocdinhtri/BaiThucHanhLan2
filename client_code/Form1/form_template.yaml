@@ -1,0 +1,37 @@
+container: {type: ColumnPanel}
+components:
+- name: xy_panel_1
+  properties: {height: 172}
+  type: XYPanel
+  layout_properties: {grid_position: 'WMDLHH,IMBWEY'}
+  components:
+  - name: text_input
+    properties: {}
+    type: TextBox
+    layout_properties: {x: 298.640625, y: 6.140625, width: 200}
+  - name: label_3
+    properties: {text: "S\u1eafp x\u1ebfp gi\u1ea3m\n "}
+    type: Label
+    layout_properties: {x: 37.546875, y: 125.046875, width: 200}
+  - name: text_ascending
+    properties: {}
+    type: TextBox
+    layout_properties: {x: 298.828125, y: 63.28125, width: 200}
+  - name: label_2
+    properties: {text: Sắp xếp tăng}
+    type: Label
+    layout_properties: {x: 37.828125, y: 68.328125, width: 200}
+  - name: text_descending
+    properties: {}
+    type: TextBox
+    layout_properties: {x: 298.546875, y: 119.046875, width: 200}
+  - name: label_1
+    properties: {text: Hãy nhập số nguyên}
+    type: Label
+    layout_properties: {x: 36.6875, y: 8.1875, width: 200}
+  - name: btn_sort
+    properties: {text: Sắp Xếp}
+    type: Button
+    layout_properties: {x: 598.546875, y: 59.046875, width: 200}
+    event_bindings: {click: button_1_click}
+is_package: true
